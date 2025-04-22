@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - DARC Consulting</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">DARC</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="btn-contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Hero Section -->
+    <section class="portfolio-hero">
+        <div class="container">
+            <div class="portfolio-hero-content">
+                <h1>Our Portfolio</h1>
+                <p class="portfolio-tagline">Transforming Data Challenges into Business Success</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter Section -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="bi-dashboards">BI Dashboards</button>
+                <button class="filter-btn" data-filter="data-governance">Data Governance</button>
+                <button class="filter-btn" data-filter="analytics">Analytics</button>
+                <button class="filter-btn" data-filter="report-automation">Report Automation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Projects Section -->
+    <section class="portfolio-projects">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="bi-dashboards">
+                    <div class="project-image">
+                        <img src="images/financial-dashboard.jpg" alt="Financial Risk Dashboard">
+                        <div class="project-overlay">
+                            <a href="portfolio-financial-dashboard.html" class="btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Financial Services Risk Dashboard</h3>
+                        <p class="project-category">Business Intelligence Dashboard</p>
+                        <p class="project-description">Comprehensive risk monitoring dashboard for a major financial institution, integrating data from multiple systems to provide real-time risk visibility and regulatory compliance.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="data-governance">
+                    <div class="project-image">
+                        <img src="images/governance-framework.jpg" alt="Data Governance Framework">
+                        <div class="project-overlay">
+                            <a href="portfolio-governance-framework.html" class="btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>BCBS239 Compliance Program</h3>
+                        <p class="project-category">Data Governance & Compliance</p>
+                        <p class="project-description">Implementation of a comprehensive data governance framework for a major bank to achieve BCBS239 compliance, including data lineage, quality controls, and governance processes.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="analytics">
+                    <div class="project-image">
+                        <img src="images/marketing-analytics.jpg" alt="Marketing Analytics Dashboard">
+                        <div class="project-overlay">
+                            <a href="portfolio-marketing-analytics.html" class="btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Marketing Campaign Optimization</h3>
+                        <p class="project-category">Analytics & Insights</p>
+                        <p class="project-description">Advanced analytics solution for a financial services provider to optimize marketing campaigns, including customer segmentation, predictive modeling, and attribution analysis.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card" data-category="report-automation">
+                    <div class="project-image">
+                        <img src="images/report-automation.jpg" alt="Report Automation System">
+                        <div class="project-overlay">
+                            <a href="portfolio-report-automation.html" class="btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Regulatory Reporting Automation</h3>
+                        <p class="project-category">Report Automation</p>
+                        <p class="project-description">End-to-end automation solution for a financial institution's regulatory reporting process, reducing reporting time from 120+ hours to less than 8 hours per month.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card" data-category="bi-dashboards">
+                    <div class="project-image">
+                        <img src="images/executive-dashboard.jpg" alt="Executive KPI Dashboard">
+                        <div class="project-overlay">
+                            <a href="portfolio-executive-dashboard.html" class="btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Executive KPI Dashboard</h3>
+                        <p class="project-category">Business Intelligence Dashboard</p>
+                        <p class="project-description">Comprehensive executive dashboard providing real-time visibility into key performance indicators across multiple departments for a telecommunications company.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card" data-category="analytics">
+                    <div class="project-image">
+                        <img src="images/customer-analytics.jpg" alt="Customer Analytics Platform">
+                        <div class="project-overlay">
+                            <a href="portfolio-customer-analytics.html" class="btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Customer Behavior Analytics</h3>
+                        <p class="project-category">Analytics & Insights</p>
+                        <p class="project-description">Advanced customer analytics platform for a retail organization, providing insights into customer behavior, preferences, and lifetime value to drive personalized marketing strategies.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 7 -->
+                <div class="project-card" data-category="data-governance">
+                    <div class="project-image">
+                        <img src="images/data-quality.jpg" alt="Data Quality Framework">
+                        <div class="project-overlay">
+                            <a href="portfolio-data-quality.html" class="btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Enterprise Data Quality Framework</h3>
+                        <p class="project-category">Data Governance & Compliance</p>
+                        <p class="project-description">Implementation of a comprehensive data quality framework for a healthcare provider, including quality rules, monitoring processes, and remediation workflows.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 8 -->
+                <div class="project-card" data-category="report-automation">
+                    <div class="project-image">
+                        <img src="images/sales-reporting.jpg" alt="Sales Reporting Automation">
+                        <div class="project-overlay">
+                            <a href="portfolio-sales-reporting.html" class="btn-view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sales Performance Reporting</h3>
+                        <p class="project-category">Report Automation</p>
+                        <p class="project-description">Automated sales reporting solution for a retail organization, providing daily performance metrics, trend analysis, and exception reporting to sales management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Section -->
+    <section class="featured-case-study">
+        <div class="container">
+            <h2 class="section-title">Featured Case Study</h2>
+            
+            <div class="case-study-content">
+                <h3>Financial Services Risk Dashboard</h3>
+                <div class="case-study-details">
+                    <div class="case-study-text">
+                        <h4>Challenge:</h4>
+                        <p>A major financial institution was struggling with fragmented data across multiple systems, making it difficult to monitor compliance with BCBS239 requirements. Monthly reporting was manual, error-prone, and consumed over 40 hours of analyst time per cycle.</p>
+                        
+                        <h4>Solution:</h4>
+                        <p>We developed a comprehensive Risk and Compliance Dashboard that:</p>
+                        <ul>
+                            <li>Integrated data from 5 separate systems</li>
+                            <li>Automated daily data refreshes</li>
+                            <li>Created visual risk indicators with threshold alerts</li>
+                            <li>Implemented drill-down capabilities for detailed analysis</li>
+                            <li>Included automated export functionality for regulatory reporting</li>
+                        </ul>
+                        
+                        <h4>Results:</h4>
+                        <ul>
+                            <li>Reduced monthly reporting time from 40+ hours to under 3 hours</li>
+                            <li>Improved data accuracy by eliminating manual compilation errors</li>
+                            <li>Enhanced risk visibility with daily instead of monthly updates</li>
+                            <li>Enabled proactive compliance management through automated alerts</li>
+                            <li>Received commendation from regulatory auditors for transparency and completeness</li>
+                        </ul>
+                        
+                        <a href="portfolio-financial-dashboard.html" class="btn btn-primary">View Full Case Study</a>
+                    </div>
+                    <div class="case-study-image">
+                        <img src="images/financial-dashboard-detail.jpg" alt="Financial Risk Dashboard Detail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logos Section -->
+    <section class="client-logos">
+        <div class="container">
+            <h2 class="section-title">Trusted By</h2>
+            <p class="section-description">We've had the privilege of working with leading organizations across various industries.</p>
+            
+            <div class="logos-grid">
+                <div class="logo-item">
+                    <img src="images/client-logo-1.png" alt="Client Logo 1">
+                </div>
+                <div class="logo-item">
+                    <img src="images/client-logo-2.png" alt="Client Logo 2">
+                </div>
+                <div class="logo-item">
+                    <img src="images/client-logo-3.png" alt="Client Logo 3">
+                </div>
+                <div class="logo-item">
+                    <img src="images/client-logo-4.png" alt="Client Logo 4">
+                </div>
+                <div class="logo-item">
+                    <img src="images/client-logo-5.png" alt="Client Logo 5">
+                </div>
+                <div class="logo-item">
+                    <img src="images/client-logo-6.png" alt="Client Logo 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Feedback</h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The dashboards developed transformed how we monitor and manage risk across our organization. What used to take our team weeks to compile is now available at our fingertips in real-time. The intuitive design means everyone from executives to analysts can access the insights they need without technical assistance."</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Risk & Compliance Director</p>
+                            <p class="author-company">Financial Services Company</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The data governance framework implemented has transformed how we manage our regulatory compliance. We now have clear visibility into our data lineage, robust quality controls, and a governance structure that adapts to changing requirements. The expertise in banking regulations, particularly BCBS239, was invaluable."</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Chief Data Officer</p>
+                            <p class="author-company">Major New Zealand Bank</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The reporting automation solution has completely transformed our month-end process. What used to consume our entire team for two weeks now happens with minimal intervention. The quality and consistency of our reports have improved dramatically, and we've been able to redirect our analysts to value-adding activities."</p>
+                        <div class="testimonial-author">
+                            <p class="author-name">Head of Regulatory Reporting</p>
+                            <p class="author-company">Financial Services Institution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to transform your data strategy?</h2>
+            <p>Let's discuss how our expertise can help your organization optimize operations, ensure compliance, and drive data-driven decision making.</p>
+            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>DARC Consulting</h3>
+                    <p>Your Technology Partner</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>74 Taharoto Road, Takapuna</p>
+                    <p>Auckland, New Zealand</p>
+                    <p>+64 21 190 2793</p>
+                    <p>info@darcconsulting.com</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 DARC Consulting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Portfolio filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Get filter value
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Filter projects
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
